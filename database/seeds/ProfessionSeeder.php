@@ -13,9 +13,9 @@ class ProfessionSeeder extends Seeder
     public function run()
     {
 
-        Profession::create([
-            'name' => 'Probando'
-        ]);
+         Profession::create([
+             'name' => 'Probando'
+         ]);
 
         DB::table('profession')->insert([
         	'name' => 'Desarrollador'
